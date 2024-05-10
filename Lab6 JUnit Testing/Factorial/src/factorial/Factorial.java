@@ -28,7 +28,7 @@ public class Factorial {
     
     public static void main(String[] args){
     try{
-        int num = -5;
+        int num = 5;
         long factorial= calculateFactorial(num);
         System.out.println("The Factorial of " + num + "is" + factorial );
     }catch(IllegalArgumentException e){
